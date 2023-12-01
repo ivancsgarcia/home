@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .one, .two, .three, .four, .five  {
+    /* border: 1px solid black; */
+    padding: 3rem;
+    text-align: center;
+    min-height: 50svh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .one img, .five img {
+    margin: 0 5px;
+  }
+
+  .one p, .three p, .five p {
+    padding: 0 2rem .5rem;
+  }
+
+  .one h2, .three h2, .five h2 {
+    padding-bottom: 1rem;
+  }
+  
+  .three img {
+    margin: 5px;
+  }
+
+
+  .min-width {
+    min-width: 50%;
+  }
+
+  button {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .two, .four {
+    background-color: lightgrey;
+  }
